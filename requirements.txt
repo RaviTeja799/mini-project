@@ -1,0 +1,4 @@
+gradio==4.31.5
+tensorflow-cpu==2.16.1
+numpy==1.26.4
+Pillow==10.3.0
