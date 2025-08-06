@@ -1,4 +1,5 @@
-gradio==4.31.5
-tensorflow-cpu==2.16.1
-numpy==1.26.4
-Pillow==10.3.0
+gradio==3.50.0
+tensorflow==2.13.0
+numpy==1.24.3
+opencv-python-headless==4.8.0.74
+Pillow==9.5.0

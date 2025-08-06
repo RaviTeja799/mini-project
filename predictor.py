@@ -5,7 +5,7 @@ from PIL import Image
 import streamlit as st
 
 # --- Configuration ---
-MODEL_PATH = "models/waste_classifier_v2.tflite"
+MODEL_PATH = "models/waste_classifier_v5.tflite"
 
 # IMPORTANT: This list MUST be in the exact same order as the classes the model was trained on.
 # I am using the list you provided in your Streamlit code.
