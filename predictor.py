@@ -10,15 +10,38 @@ MODEL_PATH = "models/waste_classifier_v5.tflite"
 # IMPORTANT: This list MUST be in the exact same order as the classes the model was trained on.
 # I am using the list you provided in your Streamlit code.
 CLASS_NAMES = sorted([
-    'aerosol_cans', 'aluminum_food_cans', 'aluminum_soda_cans', 
-    'cardboard_boxes', 'cardboard_packaging', 'clothing', 'coffee_grounds', 
-    'disposable_plastic_cutlery', 'egg_shells', 'food_waste', 
-    'glass_beverage_bottles', 'glass_cosmetic_containers', 
-    'glass_food_jars', 'magazines', 'newspaper', 'office_paper', 'paper_cups', 
-    'plastic_cup_lids', 'plastic_detergent_bottles','plastic_food_containers', 'plastic_shopping_bags', 
-    'plastic_soda_bottles', 'plastic_straws', 'plastic_trash_bags', 
-    'plastic_water_bottles', 'shoes','steel_food_cans', 'styrofoam_cups','styrofoam_food_containers', 'tea_bags'
-])
+
+'aerosol_cans', 'aluminum_food_cans',
+
+'aluminum_soda_cans',
+
+'cardboard_boxes', 'cardboard_packaging',
+
+'clothing', 'coffee_grounds',
+
+'disposable_plastic_cutlery', 'egg_shells',
+
+'food_waste',
+
+'glass_beverage_bottles',
+
+'glass_cosmetic_containers',
+
+'glass_food_jars', 'magazines', 'newspaper',
+
+'office_paper', 'paper_cups',
+
+'plastic_cup_lids',
+
+'plastic_detergent_bottles','plastic_food_containers',
+
+'plastic_shopping_bags',
+
+'plastic_soda_bottles', 'plastic_straws',
+
+'plastic_trash_bags',
+
+'plastic_water_bottles', 'shoes','steel_food_cans', 'styrofoam_cups','styrofoam_food_containers', 'tea_bags' ])
 
 # --- Model Loading and Caching ---
 # Use Streamlit's caching to load the model only once, improving performance.
